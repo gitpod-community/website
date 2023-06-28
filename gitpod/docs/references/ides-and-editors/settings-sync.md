@@ -88,18 +88,15 @@ Settings in VS Code Desktop might differ from your remote settings, follow the i
 
 ## FAQs
 
-### How to disable extension sync?
+### [How to disable extension sync?](https://discord.com/channels/816244985187008514/1115681868654850108)
 
 When using a Cloud Development Environment like Gitpod, you might want to disable extension sync to prevent certain extensions from being installed in every workspace.
 
-To achieve this, you should disable syncing the specific extensions that are not meant to be auto-installed in all of your workspaces. You can do this by following the steps provided in this [screenshot](https://cdn.discordapp.com/attachments/1115681868654850108/1116443879550484531/Screenshot_2023-06-09_at_1.06.23_AM.png).
+To achieve this, you should disable syncing the specific extensions that are not meant to be auto-installed in all of your workspaces. You can do this by following the steps as below:
 
-For project/repository-specific Visual Studio Code extensions, it's recommended to specify them through the `.gitpod.yml` configuration file. This approach will allow you to avoid issues with extensions getting synced in your personal settings.
+[!screenshot](https://cdn.discordapp.com/attachments/1115681868654850108/1116443879550484531/Screenshot_2023-06-09_at_1.06.23_AM.png).
 
-Here are some helpful links:
-
-- [Installing an extension - Gitpod](https://www.gitpod.io/docs/references/ides-and-editors/vscode-extensions#installing-an-extension)
-- [Gitpod Discord server discussion](https://discord.com/channels/816244985187008514/1115681868654850108)
+For project/repository-specific Visual Studio Code extensions, it's recommended to [specify them through the `.gitpod.yml` configuration file](https://www.gitpod.io/docs/references/ides-and-editors/vscode-extensions#installing-an-extension). This approach will allow you to avoid issues with extensions getting synced in your personal settings.
 
 ### How do I disable VS Code Settings Sync?
 

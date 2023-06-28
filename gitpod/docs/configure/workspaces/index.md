@@ -115,25 +115,24 @@ Open the commit in a new workspace by either:
 
 ## FAQs
 
-### [Develop Android Apps on Gitpod](https://discord.com/channels/816244985187008514/1107341075384897598)
+### [Can I use an Android emulator with Gitpod and JetBrains IntelliJ IDEA for Android development?](https://discord.com/channels/816244985187008514/1107341075384897598)
 
-**Q: Can I use an Android emulator with Gitpod and JetBrains IntelliJ IDEA for Android development?**
+Android app development is possible in Gitpod, but you cannot directly run an Android emulator on Gitpod. Check this relevant issue:
 
-A: Android app development is possible in Gitpod, but you cannot directly run an Android emulator on Gitpod. Check this relevant issue:
 - [gitpod-io/gitpod#1273](https://github.com/gitpod-io/gitpod/issues/1273)
 
 You have two options:
 
 1. Connect to a physical device with a wirelessly exposed `adb` server. Some guides:
    - [Connect to a device over Wi-Fi (Android Developer)](https://developer.android.com/tools/adb#connect-to-a-device-over-wi-fi)
-   - [Set Up Wireless Debugging on Android 11 (Gadget Hacks)](https://android.gadgethacks.com/how-to/set-up-wireless-debugging-android-11-send-adb-commands-without-usb-cable-0302898/)
-   
 2. Use the exposed `adb` server from a local Android emulator (e.g. from JetBrains Android Studio)
 
 In both methods, you need to use reverse SSH port forwarding to access the `adb` server inside a Gitpod workspace. For instructions, see:
+
 - [Port forwarding (Gitpod Documentation)](https://www.gitpod.io/docs/configure/workspaces/ports#port-forwarding)
 
 You might also want to use Gitpod with JetBrains IDE locally:
+
 - [IntelliJ / CLion (Gitpod Documentation)](https://www.gitpod.io/docs/references/ides-and-editors/intellij)
 
 For Flutter Android development, there is a template available: [gitpod-samples/template-flutter](https://github.com/gitpod-samples/template-flutter)
