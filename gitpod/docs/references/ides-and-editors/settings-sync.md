@@ -105,7 +105,7 @@ Here are some helpful links:
 
 Remember to use code blocks for representing bash commands or code, like this example:
 
-```
+```bash
 echo "Hello, World!"
 ```
 
