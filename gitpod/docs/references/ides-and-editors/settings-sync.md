@@ -101,12 +101,6 @@ Here are some helpful links:
 - [Installing an extension - Gitpod](https://www.gitpod.io/docs/references/ides-and-editors/vscode-extensions#installing-an-extension)
 - [Gitpod Discord server discussion](https://discord.com/channels/816244985187008514/1115681868654850108)
 
-Remember to use code blocks for representing bash commands or code, like this example:
-
-```bash
-echo "Hello, World!"
-```
-
 ### How do I disable VS Code Settings Sync?
 
 Search for `settings sync off` in your VS Code [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) and hit <Keybind>Enter</Keybind>.
