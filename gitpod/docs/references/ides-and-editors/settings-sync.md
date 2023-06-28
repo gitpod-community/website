@@ -88,8 +88,6 @@ Settings in VS Code Desktop might differ from your remote settings, follow the i
 
 ## FAQs
 
-## FAQ
-
 ### How to disable extension sync?
 
 When using an online editor like Gitpod, you might want to disable extension sync to prevent certain extensions from being installed in every workspace.
