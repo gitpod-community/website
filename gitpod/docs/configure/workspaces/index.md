@@ -133,7 +133,7 @@ You have two options:
 In both methods, you need to use reverse SSH port forwarding to access the `adb` server inside a Gitpod workspace. For instructions, see:
 - [Port forwarding (Gitpod Documentation)](https://www.gitpod.io/docs/configure/workspaces/ports#port-forwarding)
 
-You might also want to use a JetBrains IDE locally:
+You might also want to use Gitpod with JetBrains IDE locally:
 - [IntelliJ / CLion (Gitpod Documentation)](https://www.gitpod.io/docs/references/ides-and-editors/intellij)
 
 For Flutter Android development, there is a template available: [gitpod-samples/template-flutter](https://github.com/gitpod-samples/template-flutter)
